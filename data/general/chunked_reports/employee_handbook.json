@@ -1,0 +1,754 @@
+[
+  {
+    "section": "Employee Handbook",
+    "subsection": null,
+    "subsubsection": null,
+    "content": [
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Table of Contents",
+    "subsubsection": null,
+    "content": [
+      "1. [Welcome & Introduction](#welcome--introduction)",
+      "2. [Employee Onboarding & Benefits](#employee-onboarding--benefits)",
+      "3. [Leave Policies](#leave-policies)",
+      "4. [Work Hours & Attendance](#work-hours--attendance)",
+      "5. [Code of Conduct & Workplace Behavior](#code-of-conduct--workplace-behavior)",
+      "6. [Health & Safety](#health--safety)",
+      "7. [Compensation & Payroll](#compensation--payroll)",
+      "8. [Reimbursement Policies](#reimbursement-policies)",
+      "9. [Training & Development](#training--development)",
+      "10. [Performance & Feedback](#performance--feedback)",
+      "11. [Privacy & Data Security](#privacy--data-security)",
+      "12. [Exit Policy](#exit-policy)",
+      "13. [FAQs](#faqs)",
+      "14. [Miscellaneous](#miscellaneous)",
+      "",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Welcome & Introduction",
+    "subsubsection": null,
+    "content": [
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Welcome & Introduction",
+    "subsubsection": "Company Vision and Mission",
+    "content": [
+      "At FinSolve Technologies, our vision is to empower businesses and individuals through innovative technology solutions. Our mission is to deliver high-quality, sustainable products and services that create value for our stakeholders.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Welcome & Introduction",
+    "subsubsection": "Core Values",
+    "content": [
+      "- **Integrity**: We act with honesty and transparency.",
+      "- **Respect**: We value diversity and treat everyone with dignity.",
+      "- **Innovation**: We encourage creativity and continuous improvement.",
+      "- **Customer Focus**: Our customers are at the heart of everything we do.",
+      "- **Accountability**: We take responsibility for our actions and results.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Welcome & Introduction",
+    "subsubsection": "Company Overview",
+    "content": [
+      "Founded in 2016, FinSolve Technologies is a leading player in fintech with a presence across India and global markets. We are committed to ethical business, social responsibility, and fostering a culture of learning and growth.",
+      "",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Employee Onboarding & Benefits",
+    "subsubsection": null,
+    "content": [
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Employee Onboarding & Benefits",
+    "subsubsection": "Onboarding Process",
+    "content": [
+      "- **Pre-Joining**: Offer letter issuance, document submission (ID, address, education, previous employment).",
+      "- **Day 1**: Welcome session, HR induction, IT setup, introduction to team and mentor.",
+      "- **First Week**: Policy orientation, compliance training, role-specific training, buddy program.",
+      "- **First Month**: Probation objectives set, regular check-ins with manager and HR.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Employee Onboarding & Benefits",
+    "subsubsection": "Employee Benefits",
+    "content": [
+      "",
+      "#### Statutory Benefits",
+      "| Benefit | Details |",
+      "|---------|---------|",
+      "| **Employees’ Provident Fund (EPF)** | 12% employer & employee contribution; as per EPF Act, 1952 |",
+      "| **Employee State Insurance (ESI)** | For employees earning ≤ ₹21,000/month; covers medical, disability, maternity |",
+      "| **Gratuity** | Payable after 5 years of continuous service; as per Payment of Gratuity Act |",
+      "| **Maternity Benefit** | 26 weeks paid leave for first two children; as per Maternity Benefit Act |",
+      "| **Bonus** | As per Payment of Bonus Act; minimum 8.33% of basic salary |",
+      "",
+      "#### Company Benefits",
+      "- **Group Health Insurance**: Family floater policy covering employee, spouse, and up to 2 children.",
+      "- **Accident & Life Insurance**: Additional coverage for accidental death or disability.",
+      "- **Wellness Programs**: Annual health check-ups, yoga/meditation sessions, mental health counseling.",
+      "- **Employee Assistance Program (EAP)**: Confidential counseling and support for personal or professional issues.",
+      "- **Flexible Work Arrangements**: Remote work, flexible hours (role-dependent).",
+      "",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Leave Policies",
+    "subsubsection": null,
+    "content": [
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Leave Policies",
+    "subsubsection": "Types of Leave",
+    "content": [
+      "| Leave Type | Entitlement/Details |",
+      "|------------|---------------------|",
+      "| **Privilege/Annual** | 15-21 days/year (as per state Shops & Establishments Act); accrued monthly |",
+      "| **Sick Leave** | 12 days/year (non-cumulative; medical certificate for >2 days) |",
+      "| **Casual Leave** | 7 days/year (state-specific) |",
+      "| **Maternity Leave** | 26 weeks (first two children); 12 weeks for subsequent children |",
+      "| **Paternity Leave** | 7-15 days (company policy; not statutory) |",
+      "| **Bereavement Leave** | 3-7 days for immediate family (company policy) |",
+      "| **Compensatory Off** | For work on holidays/weekends (manager approval required) |",
+      "| **Public Holidays** | 10-14 days/year (as per company calendar and state notifications) |",
+      "| **Leave Without Pay** | Allowed with approval after exhausting paid leave |",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Leave Policies",
+    "subsubsection": "Leave Application Process",
+    "content": [
+      "- Apply via HRMS/leave portal at least 3 days in advance (except emergencies).",
+      "- Sick leave for more than 2 days requires a medical certificate.",
+      "- Emergency leave to be communicated to manager/HR as soon as possible.",
+      "- Approval from reporting manager and HR required for all leave requests.",
+      "- Leave balance can be viewed on the HRMS portal.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Leave Policies",
+    "subsubsection": "Public Holidays Policy",
+    "content": [
+      "- Annual holiday list circulated at the start of each year.",
+      "- Includes national (Republic Day, Independence Day, Gandhi Jayanti), festival, and restricted holidays.",
+      "- Employees may choose restricted holidays as per personal preference.",
+      "",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Work Hours & Attendance",
+    "subsubsection": null,
+    "content": [
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Work Hours & Attendance",
+    "subsubsection": "Work Hours",
+    "content": [
+      "- **Standard Hours**: 9 hours/day (including 1 hour break), 6 days/week or 8 hours/day, 5 days/week (as per company policy).",
+      "- **Flexible Timings**: Allowed for eligible roles, subject to manager approval.",
+      "- **Shift Work**: Applicable for certain roles; shift allowance as per policy.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Work Hours & Attendance",
+    "subsubsection": "Attendance & Punctuality",
+    "content": [
+      "- Attendance must be marked daily via biometric, swipe card, or HRMS app.",
+      "- Late arrivals/early departures must be notified to the manager.",
+      "- Three or more late arrivals in a month may attract disciplinary action.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Work Hours & Attendance",
+    "subsubsection": "Time Tracking",
+    "content": [
+      "- All employees must record work hours and breaks accurately.",
+      "- Use of company-approved time tracking tools is mandatory for remote/hybrid roles.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Work Hours & Attendance",
+    "subsubsection": "Overtime & Compensation",
+    "content": [
+      "- Overtime is voluntary and paid at double the regular wage rate (as per Factories Act).",
+      "- Prior approval from manager required for overtime.",
+      "- Compensatory off may be provided in lieu of overtime for certain roles.",
+      "",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Code of Conduct & Workplace Behavior",
+    "subsubsection": null,
+    "content": [
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Code of Conduct & Workplace Behavior",
+    "subsubsection": "Professionalism & Respect",
+    "content": [
+      "- Treat all colleagues, clients, and vendors with respect and courtesy.",
+      "- Maintain a positive, inclusive, and harassment-free environment.",
+      "- Uphold confidentiality of company information at all times.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Code of Conduct & Workplace Behavior",
+    "subsubsection": "Anti-Discrimination & Equal Opportunity",
+    "content": [
+      "- No discrimination based on gender, caste, religion, age, disability, sexual orientation, or any other protected characteristic.",
+      "- Equal opportunity in recruitment, promotions, and training.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Code of Conduct & Workplace Behavior",
+    "subsubsection": "Dress Code",
+    "content": [
+      "- Business casual attire from Monday to Thursday.",
+      "- Smart casuals or ethnic wear on Fridays and special occasions.",
+      "- Avoid revealing, offensive, or inappropriate clothing.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Code of Conduct & Workplace Behavior",
+    "subsubsection": "Substance Abuse Policy",
+    "content": [
+      "- Possession, use, or distribution of drugs or alcohol on company premises is strictly prohibited.",
+      "- Violation may lead to immediate termination and legal action.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Code of Conduct & Workplace Behavior",
+    "subsubsection": "Harassment & Bullying Prevention",
+    "content": [
+      "- Zero tolerance for sexual harassment, workplace bullying, or any form of intimidation.",
+      "- Internal Complaints Committee (ICC) established as per POSH Act.",
+      "- Complaints can be raised confidentially to HR or ICC.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Code of Conduct & Workplace Behavior",
+    "subsubsection": "Conflict Resolution Process",
+    "content": [
+      "- Attempt informal resolution with the concerned party.",
+      "- If unresolved, escalate to HR or Grievance Redressal Officer.",
+      "- Formal complaints investigated impartially and resolved within 30 days.",
+      "",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Health & Safety",
+    "subsubsection": null,
+    "content": [
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Health & Safety",
+    "subsubsection": "Workplace Safety Guidelines",
+    "content": [
+      "- Comply with the Occupational Safety, Health, and Working Conditions Code, 2020.",
+      "- Mandatory safety training for all employees.",
+      "- Use personal protective equipment (PPE) where required.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Health & Safety",
+    "subsubsection": "Accident & Injury Reporting",
+    "content": [
+      "- Report all accidents, injuries, or near-misses to HR and Safety Officer immediately.",
+      "- First aid kits and emergency contact numbers available at all locations.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Health & Safety",
+    "subsubsection": "Mental Health & Well-being Support",
+    "content": [
+      "- Access to EAP counselors and mental health resources.",
+      "- Regular wellness workshops and stress management sessions.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Health & Safety",
+    "subsubsection": "Emergency Procedures",
+    "content": [
+      "- Evacuation plans displayed at all exits.",
+      "- Fire drills conducted quarterly.",
+      "- Emergency helpline numbers displayed prominently.",
+      "",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Compensation & Payroll",
+    "subsubsection": null,
+    "content": [
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Compensation & Payroll",
+    "subsubsection": "Salary Structure",
+    "content": [
+      "| Component | Details |",
+      "|-----------|---------|",
+      "| **Basic Salary** | 40-50% of CTC |",
+      "| **House Rent Allowance (HRA)** | 40-50% of basic salary |",
+      "| **Special Allowance** | Variable, as per grade |",
+      "| **Conveyance Allowance** | As per company policy |",
+      "| **Bonus** | Minimum 8.33% of basic salary, as per law |",
+      "| **Gratuity** | As per Payment of Gratuity Act |",
+      "| **Provident Fund** | 12% employer & employee contribution |",
+      "| **Professional Tax** | As per state laws |",
+      "| **ESI** | For eligible employees |",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Compensation & Payroll",
+    "subsubsection": "Payroll Schedule",
+    "content": [
+      "- Salary is processed and credited to bank accounts on the last working day of each month.",
+      "- Payslips are available on the HRMS portal.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Compensation & Payroll",
+    "subsubsection": "Payroll Deductions",
+    "content": [
+      "- **Statutory deductions**: PF, ESI, Professional Tax, Income Tax (TDS), Labour Welfare Fund.",
+      "- **Voluntary deductions**: Loan repayments, advances, etc.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Compensation & Payroll",
+    "subsubsection": "Payroll Discrepancy Handling",
+    "content": [
+      "- Raise discrepancies to HR within 5 working days of salary credit.",
+      "- Issues resolved within 7 working days.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Compensation & Payroll",
+    "subsubsection": "Salary Reviews & Increases",
+    "content": [
+      "- Annual performance-based increments.",
+      "- Market adjustments and promotions as per company policy.",
+      "",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Reimbursement Policies",
+    "subsubsection": null,
+    "content": [
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Reimbursement Policies",
+    "subsubsection": "Eligible Expenses",
+    "content": [
+      "- **Travel**: Air/train/bus fare (economy class), local conveyance (cab, auto, mileage).",
+      "- **Accommodation**: Hotel stay up to ₹3,000/night (actuals with bill).",
+      "- **Meals**: Up to ₹500/day on official travel.",
+      "- **Office Supplies**: With prior manager approval.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Reimbursement Policies",
+    "subsubsection": "Claim Process",
+    "content": [
+      "1. Submit expense claims via HRMS with original bills within 30 days of incurring the expense.",
+      "2. Claims reviewed and approved by reporting manager.",
+      "3. Reimbursement processed with the next payroll cycle.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Reimbursement Policies",
+    "subsubsection": "Required Documentation",
+    "content": [
+      "- Original bills/invoices.",
+      "- Travel tickets/boarding passes.",
+      "- Approval emails (if pre-approval required).",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Reimbursement Policies",
+    "subsubsection": "Real-World Example",
+    "content": [
+      "If you travel to Mumbai for a client meeting, book your ticket through the company portal, keep all receipts, and submit your claim within 30 days for reimbursement.",
+      "",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Training & Development",
+    "subsubsection": null,
+    "content": [
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Training & Development",
+    "subsubsection": "Training Programs",
+    "content": [
+      "- **Induction Training**: Mandatory for new hires.",
+      "- **Technical Training**: Regular upskilling in core technologies/tools.",
+      "- **Soft Skills Workshops**: Communication, leadership, time management.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Training & Development",
+    "subsubsection": "Skill Development",
+    "content": [
+      "- Access to online learning platforms (Coursera, Udemy, etc.).",
+      "- Sponsorship for industry certifications (e.g., PMP, AWS).",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Training & Development",
+    "subsubsection": "Career Path & Growth Opportunities",
+    "content": [
+      "- Internal job postings for open positions.",
+      "- Mentorship and leadership development programs.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Training & Development",
+    "subsubsection": "Tuition & Certification Reimbursement",
+    "content": [
+      "- Up to ₹50,000/year for relevant courses, subject to manager and HR approval.",
+      "- Must serve 1 year post-reimbursement or repay the amount.",
+      "",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Performance & Feedback",
+    "subsubsection": null,
+    "content": [
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Performance & Feedback",
+    "subsubsection": "Performance Reviews",
+    "content": [
+      "- **Frequency**: Annual and mid-year reviews.",
+      "- **Criteria**: Based on KPIs, goals, competencies, and values.",
+      "- **Process**: Self-assessment, manager feedback, calibration.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Performance & Feedback",
+    "subsubsection": "Feedback & Coaching",
+    "content": [
+      "- Regular 1:1 meetings between employee and manager.",
+      "- Constructive feedback encouraged at all levels.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Performance & Feedback",
+    "subsubsection": "Disciplinary Actions for Underperformance",
+    "content": [
+      "- Verbal/written warning.",
+      "- Performance Improvement Plan (PIP).",
+      "- Termination if no improvement.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Performance & Feedback",
+    "subsubsection": "Recognition & Rewards",
+    "content": [
+      "- “Star Performer” awards, spot bonuses, certificates of appreciation.",
+      "- Annual rewards for innovation, teamwork, and leadership.",
+      "",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Privacy & Data Security",
+    "subsubsection": null,
+    "content": [
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Privacy & Data Security",
+    "subsubsection": "Employee Data Privacy Policies",
+    "content": [
+      "- Compliance with Digital Personal Data Protection Act, 2023.",
+      "- Personal data collected only for legitimate HR/legal purposes.",
+      "- Access restricted to authorized personnel.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Privacy & Data Security",
+    "subsubsection": "Information Security Guidelines",
+    "content": [
+      "- Use strong passwords and change them regularly.",
+      "- Do not share confidential company/client data externally.",
+      "- Report data breaches to IT security team immediately.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Privacy & Data Security",
+    "subsubsection": "Company Commitment to Data Protection",
+    "content": [
+      "- Regular security audits and employee training.",
+      "- Data stored on secure, encrypted servers.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Privacy & Data Security",
+    "subsubsection": "Handling Sensitive Information",
+    "content": [
+      "- Mark all confidential documents as “Confidential.”",
+      "- Shred or securely delete sensitive paper/electronic files when no longer needed.",
+      "",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Exit Policy",
+    "subsubsection": null,
+    "content": [
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Exit Policy",
+    "subsubsection": "Resignation Procedures",
+    "content": [
+      "- Submit written/email resignation to manager and HR.",
+      "- Notice period as per appointment letter (typically 30-90 days).",
+      "- Handover of duties and documentation required.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Exit Policy",
+    "subsubsection": "Termination Process",
+    "content": [
+      "- May occur due to misconduct, underperformance, redundancy, or business needs.",
+      "- HR will provide written communication and explanation.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Exit Policy",
+    "subsubsection": "Severance Pay",
+    "content": [
+      "- Provided as per statutory requirements and company policy.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Exit Policy",
+    "subsubsection": "Return of Company Property",
+    "content": [
+      "- All assets (laptop, ID card, phone, etc.) to be returned before last working day.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Exit Policy",
+    "subsubsection": "Exit Interviews",
+    "content": [
+      "- Conductspice by HR to gather feedback and suggestions.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Exit Policy",
+    "subsubsection": "Full & Final Settlement",
+    "content": [
+      "- Processed within 30-60 days of exit, including leave encashment and statutory dues.",
+      "",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "FAQs",
+    "subsubsection": null,
+    "content": [
+      "",
+      "**Q: How do I apply for maternity leave?**",
+      "A: Submit application on HRMS with medical certificate at least 8 weeks before due date.",
+      "",
+      "**Q: What if I forget to mark attendance?**",
+      "A: Inform HR within 24 hours; repeated lapses may lead to deduction or disciplinary action.",
+      "",
+      "**Q: How is overtime calculated?**",
+      "A: Paid at double the regular wage for hours beyond statutory limits, subject to manager approval.",
+      "",
+      "**Q: Can I work from home?**",
+      "A: Up to 2 days/week, subject to manager and business approval.",
+      "",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Miscellaneous",
+    "subsubsection": null,
+    "content": [
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Miscellaneous",
+    "subsubsection": "Team Outings & Social Activities",
+    "content": [
+      "- Quarterly team outings, annual company retreat, festival celebrations.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Miscellaneous",
+    "subsubsection": "Work-from-Home Policy",
+    "content": [
+      "- Up to 2 days/week for eligible roles; must be approved by manager.",
+      "- Must be reachable and available during core work hours.",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Miscellaneous",
+    "subsubsection": "Employee Referral Program",
+    "content": [
+      "- ₹10,000 reward for successful referrals (paid after new hire completes 6 months).",
+      ""
+    ]
+  },
+  {
+    "section": "Employee Handbook",
+    "subsection": "Miscellaneous",
+    "subsubsection": "Dress Code & Office Etiquette",
+    "content": [
+      "- Maintain cleanliness of workspace.",
+      "- Use meeting rooms for calls/discussions.",
+      "- Mobile phones on silent in work areas.",
+      "",
+      "",
+      "**Note**: This handbook is a living document and may be updated periodically. For policy clarifications or state-specific rules, please consult HR or refer to the company’s policy portal."
+    ]
+  }
+]

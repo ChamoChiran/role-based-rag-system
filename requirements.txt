@@ -1,0 +1,11 @@
+pandas
+scikit-learn
+numpy
+matplotlib
+seaborn
+jupyter
+chromadb
+sentence-transformers
+python-dotenv
+fastapi
+langchain
