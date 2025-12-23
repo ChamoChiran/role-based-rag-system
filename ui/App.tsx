@@ -22,6 +22,8 @@ import {
 import { motion, AnimatePresence } from 'framer-motion';
 import { Role, Message, Session } from './types';
 import { fetchSessions } from './services/backendService';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 // --- Types & Constants ---
 
@@ -280,7 +282,11 @@ const MessageBubble: React.FC<{ message: Message }> = ({ message }) => {
   return (
     <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className={`flex flex-col ${isBot ? 'items-start' : 'items-end'} mb-10 group font-normal`}>
       <div className={`max-w-[85%] md:max-w-[78%] p-6 rounded-2xl relative shadow-xl ${isBot ? 'bg-[#1E293B] border border-slate-700 text-slate-100' : 'bg-blue-600 text-white rounded-tr-none'}`}>
-        <div className="whitespace-pre-wrap text-sm md:text-[15px] leading-relaxed mb-4 font-normal">{message.content}</div>
+        <div className='prose prose-invert max-w-none text-sm md:text-[15px] leading-relaxed mb-4'>
+          <ReactMarkdown remarkPlugins={[remarkGfm]}>
+            {message.content}
+          </ReactMarkdown>
+        </div>
         {isBot && message.sources && message.sources.length > 0 && (
           <div className="mt-6 pt-5 border-t border-slate-700 flex flex-wrap gap-2">
              <div className="w-full flex items-center justify-between mb-2">
