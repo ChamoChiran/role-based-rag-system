@@ -1,7 +1,5 @@
 {
   "name": "FinSolve AI Chatbot",
   "description": "A secure, high-end FinTech internal RAG-based chatbot with role-based access control and a stunning glassmorphism aesthetic.",
-  "requestFramePermissions": [
-    "microphone"
-  ]
+  "version": "0.1.0"
 }

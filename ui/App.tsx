@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { 
   Send, 
@@ -22,7 +21,7 @@ import {
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Role, Message, Session } from './types';
-import { chatWithAI } from './services/geminiService';
+import { fetchSessions } from './services/backendService';
 
 // --- Types & Constants ---
 
@@ -56,15 +55,15 @@ const ROLE_DETAILS: Record<Role, RoleInfo> = {
     color: 'emerald',
     level: 'Restricted'
   },
-  [Role.C_LEVEL]: {
-    label: 'C-Level',
-    description: 'Full enterprise visibility',
+  [Role.ENGINEERING]: {
+    label: 'Engineering',
+    description: 'Product dev & roadmaps',
     icon: <ShieldCheck size={16} />,
     color: 'amber',
-    level: 'Unrestricted'
+    level: 'Restricted'
   },
-  [Role.EMPLOYEE]: {
-    label: 'Employee',
+  [Role.GENERAL]: {
+    label: 'General',
     description: 'General info & news',
     icon: <UserCircle size={16} />,
     color: 'slate',
@@ -507,35 +506,36 @@ export default function App() {
       sources: [] 
     };
 
-    // Placeholder for AI streaming
+    // Use backend service to get AI response
     setSessions(prev => prev.map(s => s.id === targetId ? { ...s, history: [...(s.history || []), botMsg] } : s));
 
     try {
       let fullContent = "";
-      await chatWithAI(content, effectiveRole, (chunk) => {
+      const backendResponse = await fetchSessions(content, effectiveRole, (chunk: string) => {
         fullContent += chunk;
-        setSessions(prev => prev.map(s => s.id === targetId 
-          ? { ...s, history: s.history?.map(m => m.id === botMsgId ? { ...m, content: fullContent } : m) } 
+        setSessions(prev => prev.map(s => s.id === targetId
+          ? { ...s, history: s.history?.map(m => m.id === botMsgId ? { ...m, content: fullContent } : m)}
           : s
         ));
       });
 
-      const mockSources = effectiveRole === Role.C_LEVEL ? ["Executive_Decision_Ledger_2025", "Silo_Audit_Secure"] : ["Intelligence_Node_Primary", "Verified_Internal_Ledger"];
-      
+      const sources = backendResponse.sources || [];
+
       setSessions(prev => prev.map(s => s.id === targetId 
-        ? { ...s, history: s.history?.map(m => m.id === botMsgId ? { ...m, sources: mockSources } : m) } 
+        ? { ...s, history: s.history?.map(m => m.id === botMsgId ? { ...m, sources: sources } : m) } 
         : s
       ));
 
     } catch (error) {
       const errorText = "Sync failure: Node handshake timed out. Re-verify authority credentials for this silo.";
-      setSessions(prev => prev.map(s => s.id === targetId 
-        ? { ...s, history: s.history?.map(m => m.id === botMsgId ? { ...m, content: errorText } : m) } 
+      setSessions(prev => prev.map(s => s.id === targetId
+        ? { ...s, history: s.history?.map(m => m.id === botMsgId ? { ...m, content: errorText } : m) }
         : s
       ));
     } finally {
       setIsLoading(false);
     }
+
   };
 
   const handleSessionSelect = (id: string | null) => {

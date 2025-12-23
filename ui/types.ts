@@ -1,10 +1,10 @@
 
 export enum Role {
-  FINANCE = 'Finance',
-  MARKETING = 'Marketing',
-  HR = 'HR',
-  C_LEVEL = 'C-Level',
-  EMPLOYEE = 'Employee'
+  FINANCE = 'finance',
+  MARKETING = 'marketing',
+  HR = 'hr',
+  ENGINEERING = 'engineering',
+  GENERAL = 'general',
 }
 
 export interface MessagePart {
