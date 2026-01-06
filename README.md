@@ -2,7 +2,7 @@
 
 A Retrieval-Augmented Generation (RAG) system with role-based access control that provides intelligent, context-aware responses to user queries based on their organizational role.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Problem Statement](#problem-statement)
 - [Implementation](#implementation)
