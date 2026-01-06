@@ -41,14 +41,14 @@ const ROLE_DETAILS: Record<Role, RoleInfo> = {
     description: 'P&L, audits & tax records',
     icon: <TrendingUp size={16} />,
     color: 'blue',
-    level: 'Internal'
+    level: 'Restricted'
   },
   [Role.MARKETING]: {
     label: 'Marketing',
     description: 'Ad spend & ROI metrics',
     icon: <Search size={16} />,
     color: 'purple',
-    level: 'Internal'
+    level: 'Restricted'
   },
   [Role.HR]: {
     label: 'HR',
@@ -127,7 +127,7 @@ const SidebarItem: React.FC<{
   </button>
 );
 
-const RoleSwitcher: React.FC<{ currentRole: Role, setRole: (r: Role) => void }> = ({ currentRole, setRole }) => {
+const RoleSwitcher: React.FC<{ currentRole: Role, setRole: (r: Role) => void, locked: boolean }> = ({ currentRole, setRole, locked }) => {
   const [isOpen, setIsOpen] = useState(false);
   const roles = Object.values(Role);
   const current = ROLE_DETAILS[currentRole];
@@ -135,8 +135,18 @@ const RoleSwitcher: React.FC<{ currentRole: Role, setRole: (r: Role) => void }> 
   return (
     <div className="relative w-full font-normal">
       <button 
-        onClick={() => setIsOpen(!isOpen)}
-        className={`w-full flex items-center justify-between p-4 bg-[#1E293B] rounded-xl hover:bg-[#2D3748] transition-all duration-200 border border-[#334155] group ${isOpen ? 'ring-2 ring-blue-500/50' : ''}`}
+        disabled={locked}
+        onClick={() => {
+          if(!locked) setIsOpen(!isOpen)
+        }}
+        className={`
+          w-full flex items-center justify-between p-4 rounded-xl border transition-all duration-200
+          ${locked
+            ? 'bg-[#020617] border-slate-800 text-slate-500 cursor-not-allowed'
+            : 'bg-[#1E293B] hover:bg-[#2D3748] border-[#334155]'
+          }
+          ${isOpen && !locked ? 'ring-2 ring-blue-500/50' : ''}
+        `}
       >
         <div className="flex items-center gap-3">
           <div className={`p-2 rounded-lg border ${getSolidColorClasses(current.color)}`}>
@@ -228,10 +238,14 @@ const Sidebar: React.FC<{
     </div>
 
     <div className="space-y-4">
-      <RoleSwitcher currentRole={currentRole} setRole={setRole} />
+      <RoleSwitcher currentRole={currentRole} setRole={setRole} locked={activeSessionId !== null} />
       <button 
         onClick={() => onSessionSelect(null)}
-        className={`w-full flex items-center justify-center gap-2 p-3.5 rounded-xl border font-normal text-xs uppercase tracking-widest transition-all active:scale-[0.98] ${activeSessionId === null ? 'bg-blue-600 text-white border-blue-500 shadow-md shadow-blue-900/20' : 'bg-[#1E293B] text-slate-300 border-slate-700 hover:bg-[#2D3748]'}`}
+        className={`w-full flex items-center justify-center gap-2 p-3.5 rounded-xl border font-normal text-xs uppercase tracking-widest transition-all active:scale-[0.98] ${
+          activeSessionId === null
+            ? 'bg-blue-600 text-white border-blue-500 shadow-md shadow-blue-900/20'
+            : 'bg-[#1E293B] text-slate-300 border-slate-700 hover:bg-[#2D3748]'
+        }`}
       >
         <Plus size={16} />
         New Chat
@@ -331,6 +345,38 @@ const ContextHeader: React.FC<{
   </header>
 );
 
+export const RECOMMENDED_PROMPTS: Record<Role, string[]> = {
+  [Role.FINANCE]: [
+    "Analyze YoY revenue growth, cost changes, and profitability drivers, highlighting margin pressure and cash flow risks.",
+    "Assess cash flow health and liquidity across core activities."
+  ],
+
+  [Role.MARKETING]: [
+    "Evaluate campaign performance and ROI",
+    "Evaluate vendor performance and impact."
+  ],
+
+  [Role.HR]: [
+    "Review workforce trends and headcount changes",
+    "Analyze attrition and retention risks",
+    "Summarize payroll and benefits impact"
+  ],
+
+  [Role.ENGINEERING]: [
+    "Analyze the system architecture, focusing on microservices design, scalability, resilience, and security.",
+    "Review the technology stack across frontend, backend, infrastructure, and security, assessing suitability and risks.",
+    "Identify performance bottlenecks"
+  ],
+
+  [Role.GENERAL]: [
+    "Provide a high-level operational overview",
+    "Summarize key organizational updates"
+  ]
+};
+
+
+
+
 const EmptyConversationState: React.FC<{ 
   title: string; 
   role: Role; 
@@ -347,11 +393,9 @@ const EmptyConversationState: React.FC<{
         Your query will instantiate a new contextual chat thread. Authentication silo: <span className="text-slate-300 font-semibold">{ROLE_DETAILS[role].label}</span>. 
       </p>
     </motion.div>
+    
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.3 }} className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-2xl pt-4 font-normal">
-      {[
-        `Analyze current ${ROLE_DETAILS[role].label} parameters`,
-        "Extract key strategic highlights",
-      ].map((tip, idx) => (
+      {(RECOMMENDED_PROMPTS[role] ?? []).map((tip, idx) => (
         <button key={idx} onClick={() => onAction(tip)} className="p-5 bg-[#0F172A]/50 rounded-xl hover:bg-[#1E293B] transition-all text-sm text-slate-400 hover:text-white border border-slate-800 text-left group flex items-start gap-4 shadow-lg font-normal">
           <div className="p-2 rounded-lg bg-slate-900 border border-slate-800 group-hover:bg-blue-600 group-hover:border-blue-500 group-hover:text-white transition-all"><MessageSquare size={16} /></div>
           <div>
