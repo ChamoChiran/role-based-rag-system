@@ -348,7 +348,7 @@ const ContextHeader: React.FC<{
 export const RECOMMENDED_PROMPTS: Record<Role, string[]> = {
   [Role.FINANCE]: [
     "Analyze YoY revenue growth, cost changes, and profitability drivers, highlighting margin pressure and cash flow risks.",
-    "Assess cash flow health and liquidity across core activities."
+    "What was the Gross Margin in 2024 compared to 2023, and how does it compare to the industry benchmark?"
   ],
 
   [Role.MARKETING]: [
@@ -364,13 +364,13 @@ export const RECOMMENDED_PROMPTS: Record<Role, string[]> = {
 
   [Role.ENGINEERING]: [
     "Analyze the system architecture, focusing on microservices design, scalability, resilience, and security.",
-    "Review the technology stack across frontend, backend, infrastructure, and security, assessing suitability and risks.",
-    "Identify performance bottlenecks"
+    "What is the primary technology stack for the backend services, and what is the specific version of Python and Node.js currently in use?",
+    "What are the Recovery Time Objective (RTO) and Recovery Point Objective (RPO) targets for the system in case of a disaster?"
   ],
 
   [Role.GENERAL]: [
-    "Provide a high-level operational overview",
-    "Summarize key organizational updates"
+    "What are the specific percentages for Basic Salary and HRA in the company's salary structure?",
+    "What is the annual limit for tuition reimbursement, and is there a 'service period' requirement after receiving it?"
   ]
 };
 
